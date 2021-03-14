@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from manager.models import Book, Comment
 
 
@@ -13,3 +12,4 @@ class BookAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Book, BookAdmin)
+
